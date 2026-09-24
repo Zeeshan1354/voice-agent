@@ -1,0 +1,16 @@
+{
+  "name": "ai-voice-support-agent",
+  "version": "1.0.0",
+  "description": "AI phone support agent using Twilio Voice + Claude",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "twilio": "^5.3.0"
+  }
+}
